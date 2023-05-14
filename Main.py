@@ -14,3 +14,6 @@
 
 from banco.cuenta_bancaria  import CuentaBancaria
 
+cuenta_1=CuentaBancaria(1000)
+
+
