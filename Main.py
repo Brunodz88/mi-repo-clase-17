@@ -13,7 +13,21 @@
 #Alternativa 3
 
 from banco.cuenta_bancaria  import CuentaBancaria
+from banco.menu import menu_cuenta_bancaria
 
-cuenta_1=CuentaBancaria(1000)
+opcion=menu_cuenta_bancaria()
+
+cuenta= CuentaBancaria(0)
+
+if opcion ==1:  
+    monto=float(input("Ingrese el monto a depositar: "))
+    cuenta.depositar(monto)
+elif opcion ==2:
+    monto=float(input("Ingrese el monto a retirar: "))
+    cuenta.retirar(monto)
+elif opcion ==3:
+    cuenta.consultar_saldo()
+else:
+    print("Saliendo del programa")
 
 

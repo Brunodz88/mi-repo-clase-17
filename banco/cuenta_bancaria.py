@@ -13,10 +13,11 @@ class CuentaBancaria:
     def consultar_saldo(self):
         print(f"Saldo actual: ${self.saldo}")
         
-Cuenta_1= CuentaBancaria(1000)
-Cuenta_1.depositar(2000)
-Cuenta_1.retirar(500)
-Cuenta_1.consultar_saldo()
+# Cuenta_1= CuentaBancaria(1000)
+# Cuenta_1.depositar(2000)
+# Cuenta_1.retirar(500)
+# Cuenta_1.consultar_saldo()
 
-cuenta_2= CuentaBancaria(0)
-cuenta_2.consultar_saldo
+# cuenta_2= CuentaBancaria(0)
+# cuenta_2.consultar_saldo
+
