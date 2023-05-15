@@ -16,7 +16,6 @@ from banco.cuenta_bancaria  import CuentaBancaria
 from banco.menu import menu_cuenta_bancaria
 
 opcion=menu_cuenta_bancaria()
-print (validacion)
 
 cuenta= CuentaBancaria(0)
 
